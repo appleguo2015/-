@@ -1,4 +1,2 @@
-import coinForPython
-import god_gold
-print(god_gold.god_gold('test'))
-coinForPython.coin()
+import Applecode as ac
+print(ac.Unencode(ac.Encode('haha')))
