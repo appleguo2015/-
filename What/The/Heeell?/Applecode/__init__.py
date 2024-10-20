@@ -3,8 +3,8 @@
   /  By   \
  |AppleGUO|
  \_______/
-
-I can give you apple: 🍎.
+version: 0.0.3
+\(OvO)/ I can give you apple -> 🍎
 '''
 import random
 
