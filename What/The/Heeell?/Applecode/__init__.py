@@ -11,9 +11,8 @@ import random
 
 def Encode(text):
     l = list(text)
-    l.insert(random.randrange(0, len(l)), '🍎')
-    l.insert(random.randrange(0, len(l)), '🍎')
-    l.insert(random.randrange(0, len(l)), '🍎')
+    for i in range(len(l) - 2):
+        l.insert(random.randrange(1, len(l)), '🍎')
     text = ''
     for i in range(len(l)):
         text = f'{text}{l[i]}'
